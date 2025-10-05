@@ -17,7 +17,7 @@ export function Navbar() {
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="mx-auto max-w-6xl px-4 h-16 flex items-center justify-between">
         <Link href="/" className="font-semibold text-lg tracking-tight">
-          Gurikar Builders
+          Gurukar Builders
         </Link>
         <nav className="hidden md:flex gap-6 text-sm">
           {navItems.map((item) => (

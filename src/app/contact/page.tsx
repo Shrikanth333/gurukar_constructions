@@ -16,7 +16,7 @@ export default function ContactPage() {
         <div className="mt-6 aspect-[4/3] rounded-xl bg-muted overflow-hidden">
           <img 
             src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=600&fit=crop" 
-            alt="Contact Gurikar Builderss" 
+            alt="Contact Gurukar Builderss" 
             className="w-full h-full object-cover"
           />
         </div>

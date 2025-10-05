@@ -17,12 +17,12 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Gurikar Builders | Best Construction Company in Mysore",
-    template: "%s | Gurikar Builders",
+    default: "Gurukar Builders | Best Construction Company in Mysore",
+    template: "%s | Gurukar Builders",
   },
   description:
     "Full-service design-build firm in Mysuru for residential, commercial and interior projects.",
-  metadataBase: new URL("https://gurikarbuildersconstructions.com"),
+  metadataBase: new URL("https://gurukarbuildersconstructions.com"),
 };
 
 export default function RootLayout({

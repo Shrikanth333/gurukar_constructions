@@ -15,7 +15,7 @@ export function Chatbot() {
   const [messages, setMessages] = useState<Message[]>([
     {
       role: "assistant",
-      content: "Hello! I'm your Gurikar Builders assistant. How can I help you with your construction project today?",
+      content: "Hello! I'm your Gurukar Builders assistant. How can I help you with your construction project today?",
     },
   ]);
   const [input, setInput] = useState("");
@@ -97,7 +97,7 @@ export function Chatbot() {
           {/* Header */}
           <div className="flex items-center justify-between p-4 border-b border-border bg-primary text-primary-foreground rounded-t-lg">
             <div>
-              <h3 className="font-semibold">Gurikar Builders Assistant</h3>
+              <h3 className="font-semibold">Gurukar Builders Assistant</h3>
               <p className="text-xs opacity-90">Ask about construction, planning & more</p>
             </div>
             <button

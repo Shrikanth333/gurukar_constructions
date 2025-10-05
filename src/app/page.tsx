@@ -164,7 +164,7 @@ export default function Home() {
           <h2 className="text-2xl font-semibold">FAQs</h2>
           <div className="mt-6 grid gap-4">
             {[
-              { q: "What services does Gurikar Builders offer?", a: "Design-build: residential, commercial, interiors, project management." },
+              { q: "What services does Gurukar Builders offer?", a: "Design-build: residential, commercial, interiors, project management." },
               { q: "What areas do you serve?", a: "Primarily Mysuru and surrounding areas." },
               { q: "Do you offer free consultations?", a: "Yes, schedule a free consultation to discuss your project." },
             ].map((f) => (

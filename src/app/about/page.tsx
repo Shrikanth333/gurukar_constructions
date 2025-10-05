@@ -9,7 +9,7 @@ export default function AboutPage() {
         <div>
           <h1 className="text-3xl font-semibold tracking-tight">Excellence Across Every Department</h1>
           <p className="text-muted-foreground mt-4">
-            At Gurikar Builders, we excel in every aspect of the construction process.
+            At Gurukar Builders, we excel in every aspect of the construction process.
             Our team delivers outstanding results with long-term guarantees, adopting new technologies
             to stay at the forefront of the industry.
           </p>
@@ -17,7 +17,7 @@ export default function AboutPage() {
         <div className="aspect-[4/3] rounded-xl bg-muted overflow-hidden">
           <img 
             src="https://images.unsplash.com/photo-1541976590-713941681591?w=800&h=600&fit=crop" 
-            alt="Gurikar Builders team" 
+            alt="Gurukar Builders team" 
             className="w-full h-full object-cover"
           />
         </div>

@@ -5,11 +5,11 @@ export function Footer() {
     <footer className="border-t border-border bg-background">
       <div className="mx-auto max-w-6xl px-4 py-8 grid gap-6 md:grid-cols-3 text-sm">
         <div>
-          <div className="font-semibold">Gurikar Builders</div>
+          <div className="font-semibold">Gurukar Builders</div>
           <p className="text-muted-foreground mt-2">
             897/1, NS Road, Lakshmipuram, Mysuru, Karnataka 570004
           </p>
-          <p className="text-muted-foreground mt-1">info@gurikarbuildersconstructions.com</p>
+          <p className="text-muted-foreground mt-1">info@gurukarbuildersconstructions.com</p>
           <p className="text-muted-foreground mt-1">(+91) 89511 89622</p>
         </div>
         <div className="grid grid-cols-2 gap-4">
@@ -31,7 +31,7 @@ export function Footer() {
           </div>
         </div>
         <div className="md:text-right text-muted-foreground">
-          © {new Date().getFullYear()} Gurikar Builders. All rights reserved.
+          © {new Date().getFullYear()} Gurukar Builders. All rights reserved.
         </div>
       </div>
     </footer>

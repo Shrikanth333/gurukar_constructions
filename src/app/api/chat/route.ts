@@ -3,7 +3,7 @@ import { NextRequest, NextResponse } from "next/server";
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY || "";
 
 // System prompt for construction-focused chatbot
-const SYSTEM_PROMPT = `You are a helpful construction assistant for Gurikar Builderss, a construction company in Mysuru, India. 
+const SYSTEM_PROMPT = `You are a helpful construction assistant for Gurukar Builderss, a construction company in Mysuru, India. 
 
 Your expertise includes:
 - Residential and commercial construction
@@ -15,7 +15,7 @@ Your expertise includes:
 - Project management
 
 Company context:
-- Gurikar Builders offers packages from ₹1799/sqft (Basic) to ₹2300/sqft (Luxury)
+- Gurukar Builders offers packages from ₹1799/sqft (Basic) to ₹2300/sqft (Luxury)
 - Services: Residential, Commercial, Renovation, Extensions, Interiors
 - Located in Mysuru, Karnataka
 - 10+ years experience, 100+ happy clients
@@ -23,9 +23,9 @@ Company context:
 Guidelines:
 - Be helpful, professional, and concise
 - Provide realistic cost estimates in Indian Rupees (₹)
-- Suggest contacting Gurikar Builders for detailed quotes
+- Suggest contacting Gurukar Builders for detailed quotes
 - Focus on practical construction advice
-- If you don't know something, recommend speaking with Gurikar Builders's experts
+- If you don't know something, recommend speaking with Gurukar Builders's experts
 
 Keep responses under 150 words unless detailed explanation is needed.`;
 
@@ -101,7 +101,7 @@ function generateFallbackResponse(message: string): string {
     const lowerMessage = message.toLowerCase();
 
     if (lowerMessage.includes("cost") || lowerMessage.includes("price") || lowerMessage.includes("budget")) {
-        return "Gurikar Builderss offers packages ranging from ₹1,799/sqft (Basic) to ₹2,300/sqft (Luxury). The final cost depends on materials, finishes, and customization. For a detailed quote based on your requirements, please contact us at +91 88926 92007 or visit our Contact page.";
+        return "Gurukar Builderss offers packages ranging from ₹1,799/sqft (Basic) to ₹2,300/sqft (Luxury). The final cost depends on materials, finishes, and customization. For a detailed quote based on your requirements, please contact us at +91 88926 92007 or visit our Contact page.";
     }
 
     if (lowerMessage.includes("time") || lowerMessage.includes("duration") || lowerMessage.includes("how long")) {
@@ -117,11 +117,11 @@ function generateFallbackResponse(message: string): string {
     }
 
     if (lowerMessage.includes("approval") || lowerMessage.includes("permit")) {
-        return "Gurikar Builders assists with all approvals including: BBMP/Panchayat plan approval, building permits, occupancy certificates, and utility connections. The approval process typically takes 2-4 weeks depending on location and local authorities. We handle documentation and follow-ups.";
+        return "Gurukar Builders assists with all approvals including: BBMP/Panchayat plan approval, building permits, occupancy certificates, and utility connections. The approval process typically takes 2-4 weeks depending on location and local authorities. We handle documentation and follow-ups.";
     }
 
     if (lowerMessage.includes("contact") || lowerMessage.includes("call") || lowerMessage.includes("reach")) {
-        return "You can reach Gurikar Builderss at:\n📞 +91 88926 92007\n📧 info@Gurikar Buildersconstructions.com\n📍 897/1, NS Road, Lakshmipuram, Mysuru - 570004\n\nOr submit your query through our Contact page for a prompt response!";
+        return "You can reach Gurukar Builderss at:\n📞 +91 88926 92007\n📧 info@Gurukar Buildersconstructions.com\n📍 897/1, NS Road, Lakshmipuram, Mysuru - 570004\n\nOr submit your query through our Contact page for a prompt response!";
     }
 
     return "I'm here to help with construction queries! I can assist with:\n• Cost estimates & packages\n• Construction timelines\n• Materials & quality\n• Plan approvals\n• Project planning\n\nWhat would you like to know? For detailed consultation, call us at +91 88926 92007.";

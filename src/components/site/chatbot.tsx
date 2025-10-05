@@ -53,7 +53,7 @@ export function Chatbot() {
         ...prev,
         { role: "assistant", content: data.message },
       ]);
-    } catch (error) {
+    } catch {
       setMessages((prev) => [
         ...prev,
         {

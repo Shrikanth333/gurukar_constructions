@@ -6,7 +6,7 @@ export async function POST(req: NextRequest) {
     // MVP: Log to server. In production, send email or store in DB.
     console.log("Contact submission", data);
     return NextResponse.json({ ok: true });
-  } catch (e) {
+  } catch {
     return NextResponse.json({ ok: false }, { status: 400 });
   }
 }

@@ -24,7 +24,7 @@ export default function ContactForm() {
       if (!res.ok) throw new Error("Request failed");
       setStatus("success");
       form.reset();
-    } catch (err) {
+    } catch {
       setStatus("error");
     }
   }
